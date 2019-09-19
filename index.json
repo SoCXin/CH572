@@ -1,0 +1,34 @@
+{
+    "type":"SoC",
+    "name":"CH572",
+    "title": "WCH SoC CH572",
+    "description":"WCH RISC-V3C BLE SoC",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"RISC-V3C",
+        "Freq": 100,
+        "DMIPS": 100,
+        "CoreMark": 160
+    },
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage": "http://www.wch.cn/products/CH572.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH572.git"
+    },
+    "series":["CH572"],
+    "package":["QFN16","QFN20","QFN28"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[0.7,2.1],
+    "keywords": [
+        "RISC-V",
+        "RISC-V3C",
+        "WCH",
+        "CH572",
+        "USB","BLE","I2C","UART","SPI",
+        "5.3V","2.0V"
+    ]
+}
